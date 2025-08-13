@@ -23,6 +23,7 @@ npm start
 [2025-08-13] - Type definitions added
 [2025-08-13] - Analyzer foundation implemented
 [2025-08-13] - Analyzer foundation completed
+[2025-08-13] - Scoring rules implemented
 <!-- Example entries:
 [2024-01-15] - Basic MCP server setup completed
 [2024-01-15] - Prompt analyzer with rule-based scoring implemented

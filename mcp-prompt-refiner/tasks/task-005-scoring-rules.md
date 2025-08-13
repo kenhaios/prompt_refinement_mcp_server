@@ -1,6 +1,6 @@
 # Task 005: Scoring Rules
 
-**Status:** pending
+**Status:** completed
 **Estimated Time:** 3 hours
 **Dependencies:** Task 004
 
@@ -8,16 +8,16 @@
 Implement rule-based scoring for all analysis categories.
 
 ## Requirements
-- [ ] Add clarity scoring function
-- [ ] Add specificity scoring function
-- [ ] Add context scoring function
-- [ ] Add structure scoring function
-- [ ] Add completeness scoring function
-- [ ] Combine category scores into overall score
+- [x] Add clarity scoring function
+- [x] Add specificity scoring function
+- [x] Add context scoring function
+- [x] Add structure scoring function
+- [x] Add completeness scoring function
+- [x] Combine category scores into overall score
 
 ## Acceptance Criteria
-- [ ] Each scoring function returns value 1-10
-- [ ] Overall score reflects weighted average
+- [x] Each scoring function returns value 1-10
+- [x] Overall score reflects weighted average
 
 ## Files to Create/Modify
 - `src/analyzer.ts`
