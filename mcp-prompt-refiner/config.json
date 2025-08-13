@@ -1,0 +1,14 @@
+{
+  "scoring_weights": {
+    "clarity": 0.25,
+    "specificity": 0.25,
+    "context": 0.20,
+    "structure": 0.15,
+    "completeness": 0.15
+  },
+  "server": {
+    "port": 3000,
+    "max_prompt_length": 10000,
+    "rate_limit": 100
+  }
+}
