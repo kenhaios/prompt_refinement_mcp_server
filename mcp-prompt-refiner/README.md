@@ -20,6 +20,7 @@ npm start
 [2025-08-13] - Task breakdown completed
 [2025-08-13] - Project setup and dependencies installed
 [2025-08-13] - MCP server scaffold implemented
+[2025-08-13] - Type definitions added
 <!-- Example entries:
 [2024-01-15] - Basic MCP server setup completed
 [2024-01-15] - Prompt analyzer with rule-based scoring implemented

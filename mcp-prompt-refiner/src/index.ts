@@ -2,14 +2,15 @@ import fs from 'fs';
 import path from 'path';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { Config } from './types';
 
-function loadConfig() {
+function loadConfig(): Config {
   try {
     const configPath = path.join(__dirname, '..', 'config.json');
     const data = fs.readFileSync(configPath, 'utf-8');
-    return JSON.parse(data);
+    return JSON.parse(data) as Config;
   } catch {
-    return {};
+    return { scoring_weights: { clarity: 0, specificity: 0, context: 0, structure: 0, completeness: 0 }, server: { port: 0, max_prompt_length: 0, rate_limit: 0 } };
   }
 }
 

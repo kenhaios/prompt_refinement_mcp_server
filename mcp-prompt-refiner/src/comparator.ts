@@ -1,6 +1,6 @@
-import { CompareResult } from './types';
+import { ComparePromptsInput, CompareResult } from './types';
 
-export function comparePrompts(prompt_a: string, prompt_b: string): CompareResult {
+export function comparePrompts(input: ComparePromptsInput): CompareResult {
   // Placeholder comparison
   return {
     winner: 'tie',
