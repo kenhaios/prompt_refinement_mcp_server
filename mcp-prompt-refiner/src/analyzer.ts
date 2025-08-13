@@ -1,15 +1,17 @@
-import { AnalysisResult } from './types';
+import { AnalyzePromptInput, AnalysisResult } from './types';
 
-export function analyzePrompt(prompt: string): AnalysisResult {
+export function analyzePrompt(input: AnalyzePromptInput): AnalysisResult {
   // Placeholder implementation
   return {
     score: 0,
     strengths: [],
     weaknesses: [],
-    clarity_score: 0,
-    specificity_score: 0,
-    context_score: 0,
-    structure_score: 0,
-    completeness_score: 0
+    scores: {
+      clarity: 0,
+      specificity: 0,
+      context: 0,
+      structure: 0,
+      completeness: 0
+    }
   };
 }
