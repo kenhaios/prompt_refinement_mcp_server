@@ -48,7 +48,7 @@ Build a minimal MCP (Model Context Protocol) server for prompt refinement with t
 ### 4. Progress Tracking
 - Update task status immediately when starting/completing work
 - Add simple one-line updates to README.md under "Progress Log"
-- Format: `[DATE] - [Simple description of what was completed]`
+- Format: `[DATE TIME] - [Simple description of what was completed]`
 
 ### 5. Code Quality Standards
 - Use TypeScript for all source code
