@@ -24,6 +24,8 @@ npm start
 [2025-08-13] - Analyzer foundation implemented
 [2025-08-13] - Analyzer foundation completed
 [2025-08-13] - Scoring rules implemented
+[2025-08-13] - Analyzer testing started
+[2025-08-13] - Analyzer testing completed
 <!-- Example entries:
 [2024-01-15] - Basic MCP server setup completed
 [2024-01-15] - Prompt analyzer with rule-based scoring implemented
@@ -36,7 +38,7 @@ npm start
 - [x] Tasks created and broken down
 - [x] Project setup and dependencies
 - [x] Basic MCP server structure
-- [ ] Prompt analysis implementation
+- [x] Prompt analysis implementation
 - [ ] Prompt refinement logic
 - [ ] Prompt comparison tool
 - [ ] Integration and testing
@@ -61,6 +63,12 @@ Edit `config.json` to adjust scoring weights and server settings.
 Run in development mode:
 ```bash
 npm run dev
+```
+
+## Testing
+Run unit tests with:
+```bash
+npm test
 ```
 
 ## Notes

@@ -1,6 +1,6 @@
 # Task 006: Analyzer Testing
 
-**Status:** pending
+**Status:** completed
 **Estimated Time:** 2 hours
 **Dependencies:** Task 005
 
@@ -8,15 +8,15 @@
 Validate analyzer scoring with unit tests and sample prompts.
 
 ## Requirements
-- [ ] Create tests for each scoring function
-- [ ] Test edge cases like empty and long prompts
-- [ ] Add example prompts in examples/ directory
-- [ ] Document test commands in README
-- [ ] Ensure npm test script executes tests
+- [x] Create tests for each scoring function
+- [x] Test edge cases like empty and long prompts
+- [x] Add example prompts in examples/ directory
+- [x] Document test commands in README
+- [x] Ensure npm test script executes tests
 
 ## Acceptance Criteria
-- [ ] All tests pass successfully
-- [ ] Examples demonstrate scoring outputs
+- [x] All tests pass successfully
+- [x] Examples demonstrate scoring outputs
 
 ## Files to Create/Modify
 - `tests/analyzer.test.ts`
